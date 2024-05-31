@@ -14,19 +14,19 @@ function classificarExp(exp) {
     {
         return "Prata";
     }
-    else if (exp >= 5001 && 7000) 
+    else if (exp >= 5001 && exp <= 7000) 
     {
         return "Ouro";  
     }
-    else if (exp >= 7001 && 8000)
+    else if (exp >= 7001 && exp <= 8000)
     {
         return "Platina";
     }
-    else if (exp >= 8001 && 9000)
+    else if (exp >= 8001 && exp <= 9000)
     {
         return "Ascendente";
     }
-    else if (exp >= 9001 && 10000)
+    else if (exp >= 9001 && exp <= 10000)
     {
         return "Imortal";
     }
